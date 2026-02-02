@@ -1,0 +1,271 @@
+/* Typo et fond global */
+html {
+  font-size: 15px;
+  background-color: white;
+ padding: 1rem 1rem 0 1rem;  
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif!important;
+  border-radius: 10px 10px 10px 10px;
+  background: linear-gradient(135deg, #0b0b15, #1b2a4a, #00d4ff);
+  color: #ffffff!important;
+}
+
+header{
+  background: linear-gradient(135deg, #0b0b15, #1b2a4a, #00d4ff);
+  border-radius: 10px 10px 0px 0px;
+}
+.navbar-nav  a{
+  font-weight: bold!important;
+  font-size: 1.2rem!important;
+    color: white!important;
+}
+.navbar-nav  a:hover{
+  color: #14c5d9!important;
+}   
+
+nav.navbar-expand-lg.bg-body-tertiary{
+  background: linear-gradient(135deg, #0b0b15, #1b2a4a, #00d4ff)!important;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 8rem!important;
+}
+
+.navbar-brand, a{
+  font-size: 1.5rem!important; /* Taille spécifique pour le logo */
+  color:#00d4ff!important;
+}
+
+.logo img {
+  display: block!important; 
+  border-radius: 5px!important;
+}
+
+.nav-droite{
+  justify-content: flex-end!important;
+}
+
+h1{
+  font-size: 3.5rem!important;
+   text-align: center;
+  color: rgb(37, 126, 177);
+  font-weight: bold!important;
+  color: white!important;
+}
+
+
+h2 {
+    text-align: center;
+    justify-content: center;
+    font-size: 1.9rem!important;
+  color: rgb(37, 126, 177);
+  font-weight: bold!important;
+  color: white!important;
+
+}
+
+h3 {
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5rem!important;
+  color: rgb(37, 126, 177);
+  font-weight: bold!important;
+  color: white!important;
+   margin: 5rem 0 8rem 0!important;
+  color: rgb(37, 126, 177)!important;
+  }
+
+#Produits {
+    background-color: rgb(195, 214, 226);
+  }
+
+.button1{
+  display: flex;
+  justify-content: center;
+  border-radius: 20px!important;
+  margin-bottom: 5rem!important;
+}
+
+.btn-produits{
+    background-color: #14c5d9!important;
+    color: rgb(10, 9, 9)!important;;
+    font-size: 1.2rem!important;
+    font-weight: bold!important;
+    padding: 0.5rem 1.5rem!important;
+    border-radius: 20px!important;
+}
+
+.btn-produits:hover {
+  background-color: #0bb1c0!important;
+  color: white!important;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column!important;
+    justify-content: space-between!important;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px 10px 10px 10px!important;
+}
+
+.card-body img{
+    border-radius: 15px 15px 15px 15px!important;
+}
+
+a.btn.btn-primary{
+    display:inline-flex;
+    background-color: #14c5d9!important;
+    color: rgb(10, 9, 9)!important;;
+    font-size: 1.2rem!important;
+    font-weight: bold!important;
+    padding: 0.5rem 1.5rem!important;
+    border-radius: 20px!important;
+    text-align: center!important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)!important;
+
+}
+
+h5.card-title{
+    font-size: 1.5rem!important;
+    font-weight: bold!important;
+    color: rgb(5, 5, 5)!important;
+    text-align: center!important;
+}
+
+.Offre-Contacts h3 {
+    color: black !important;
+    font-size: 2rem!important;
+    padding-top: 5rem!important;
+    padding-bottom: rem!important;
+    margin-bottom: 1rem!important;
+    font-size: 2.5rem!important;
+    }
+
+footer{
+    display: flex;
+    justify-content: space-between!important;
+   background-color: #1b2a4a!important;
+    align-items: stretch; 
+   font-size: 1rem!important;
+  color: white!important;
+   border-radius: 0px 0px 10px 10px!important;
+    background: linear-gradient(135deg, #0b0b15, #1b2a4a, #00d4ff);
+    padding: 0.5rem 0.5rem!important;
+    border-radius: 0px 0px 10px 10px!important;
+}
+
+.Copyright{
+    font-size: 1rem!important;
+    align-items: flex-end;
+}
+
+.networkdroite{
+    display: flex!important;
+    gap: 1rem!important;
+    align-items: flex-end!important;
+  font-size: medium!important;
+}
+
+/* Responsive design pour les petits écrans */
+
+
+@media (max-width: 576px) {
+
+nav.navbar-expand-lg.bg-body-tertiary{
+display: flex!important;
+  border-radius: 10px 10px 0px 0px;     
+  background-color: rgb(4, 50, 175)!important;
+  margin-bottom: 2rem!important;
+  font-weight: bold!important;
+  font-size: 1.5rem!important;
+}
+
+.container-fluid{
+  display: flex!important;
+    justify-content: flex-start!important;
+  align-items: center!important;
+}
+
+button.navbar-toggler{
+  margin-left: auto!important;
+}
+
+.logo img{
+    width: 30px!important;
+    height: 30px!important;
+    margin-right: 30px!important;
+   justify-content: flex-start!important;
+}
+
+  h1.Technzone {
+    font-size: 1.4rem!important;
+  }
+
+  h2.Technzone {
+    font-size: 0.8rem!important;
+  }
+
+h3 {
+    text-align: center!important;
+    justify-content: center!important   ;
+    font-size: 1.5rem!important;
+  color: rgb(37, 126, 177)!important;
+  font-weight: bold!important;
+  margin: -2rem 0 3rem 0!important;
+}
+.Offre-Contacts h3 {
+    color: black !important;
+    font-size: 1.2rem!important;
+    padding-top: 5rem!important;
+    padding-bottom: rem!important;
+    margin-bottom: 1rem!important;
+    font-size: 1.8rem!important;
+    }
+
+  .btn-produits {
+    font-size: 0.7rem!important;
+    padding: 0.4rem 1.2rem!important;
+  }
+
+.btn-produits:hover {
+  filter: brightness(1.05);   /* un peu plus clair au survol */
+}
+.navbar-toggler{
+  font-size: 0.5rem!important;
+  width: 12%!important;
+  height: 50%!important;
+}
+
+
+a.btn.btn-primary{
+    display:inline-flex;
+    background-color: #14c5d9!important;
+    color: rgb(10, 9, 9)!important;;
+    font-size: 1.2rem!important;
+    font-weight: bold!important;
+    padding: 0.5rem 1.5rem!important;
+    border-radius: 20px!important;
+    text-align: center!important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)!important;
+    text-align: center!important;
+}
+
+footer{
+  font-size: 0.7rem!important;
+  padding: 0.5rem 1rem!important;   
+  color: black;
+  background-color: #1b2a4a!important;
+  border-radius: 0px 0px 10px 10px!important;
+}
+
+.networkdroite{
+    display: flex!important;
+  justify-content: flex-end!important;  
+  font-size: xsmall!important;
+  font-size: x-small!important;
+  justify-content: center!important;
+
+}
+
+
+}

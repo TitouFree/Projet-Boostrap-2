@@ -1,0 +1,183 @@
+<!DOCTYPE html><!-- Déclaration du type de document -->
+<html lang="fr"><!-- Déclaration du type de document et langue -->
+
+
+
+<head>
+  <meta charset="UTF-8"><!-- Encodage des caractères -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Configuration de l'affichage pour les appareils mobiles -->
+  <title>Tech Zone</title><!-- Titre de la page dans l'onglet navigateur-->
+  <link rel="icon" href="TZ.png" type="image/png"> <!-- Favicon -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> <!-- Lien vers la feuille de style CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+      crossorigin="anonymous"> <!-- Lien vers Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+
+<body>
+
+        <!--NavBar Bootstrap-->
+<header> 
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand">TechZone</a>
+    <div class="logo">
+        <img src="TZ.png" alt="Logo TechZone" width="40" height="40">
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-droite" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <li><a href="#Accueil" class="nav-link active" aria-current="page">Accueil</a></li>
+        <li><a class="nav-link" href="#Produits">Produits</a></li>
+        <li><a class="nav-link" href="#Offres">Offres</a></li>
+        <li><a class="nav-link disabled" aria-disabled="true" href="#Contact">Contact</a></li>
+      </div>
+    </div>
+  </div>
+  </nav>
+</header>
+
+
+
+
+<!--section Accueil-->
+
+<section id="Accueil">
+<div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-12">
+      <article class="Titreh1">
+          <h1 class="Technzone">Bienvenue chez TechZone</h1>
+        </article>
+        </div>
+    <div class="col-12 col-md-8 col-lg-6">
+      <article class="Titreh2">
+          <h2 class="Technzone">Votre boutique en ligne dédiée aux dernières innovations high-tech</h2>
+        </article>
+    </div>
+        <div class="col-12">
+      <article class="button1">
+          <button type="button" class="btn btn-primary btn-lg btn-produits">Découvrir nos produits</button>
+        </article>
+        </div>
+      </div>
+    </div>
+    </section>
+  
+
+
+
+<!--section Produits-->
+
+  <section id="Produits">
+    <h3>NOS PRODUITS PHARES</h3>
+    <div class="container">
+      <div class="row g-4"> <!--g-4 ajoute un espacement de 4 unités entre les colonnes et les lignes du grid.-->
+        <article class="col-12 col-md-4 col-lg-3 d-flex justify-content-center"> <!--d-flex transforme l’article en container flex et justify-content-center centre horizontalement la div.card à l’intérieur de la colonne.-->
+            <div class="card h-100" style="width: 18rem;">
+  <img src="/Projet Bootstrap 2/casque2.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Casque BeatByMe</h5>
+    <p class="card-text">Son immersif, réduction de bruit intelligente et confort longue durée. Profitez d’une écoute claire et puissante à tout moment.</p>
+    <a href="#" class="btn btn-primary">Acheter maintenant</a>
+  </div>
+</div>
+          </article>
+       
+          <article class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+            <div class="card h-100" style="width: 18rem;">
+  <img src="/Projet Bootstrap 2/laptop.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">MacBox</h5>
+    <p class="card-text">Puissant, léger et réactif. Parfait pour travailler, créer et se divertir partout.</p>
+    <a href="#" class="btn btn-primary">Acheter maintenant</a>
+  </div>
+</div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+            <div class="card h-100" style="width: 18rem;">
+  <img src="/Projet Bootstrap 2/smartphone.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">IPoire</h5>
+    <p class="card-text">Écran fluide, performances rapides et photos nettes. Un concentré de technologie pour le quotidien.</p>
+    <a href="#" class="btn btn-primary">Acheter maintenant</a>
+  </div>
+</div>
+          </article>
+
+
+          <article class="col-12 col-md-4 col-lg-3 d-flex justify-content-center">
+            <div class="card h-100" style="width: 18rem;">
+  <img src="/Projet Bootstrap 2/montre.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">OH Watch</h5>
+    <p class="card-text">Suivi intelligent, notifications instantanées et design moderne. La technologie à votre poignet.</p>
+    <a href="#" class="btn btn-primary">Acheter maintenant</a>
+  </div>
+</div>
+          </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!--section Offres-->
+
+  <section id="Offres">
+    <div class="container-fluid">
+        <div class="container"> 
+      <div class="row">
+        <article class="col-12 col-md-6 col-lg-6">
+            <article class="Offre-Contacts">
+                    <h3>Offres Spéciales</h3>
+                    <p>Découvrez nos offres premium du moment sur une sélection high-tech d’exception. Accédez à un smartphone haut de gamme dès 899 € ou à une montre connectée premium à partir de 399 €, alliant technologies avancées, finitions élégantes et performances de pointe. Des offres exclusives, réservées pour une durée limitée</p>
+                </article>
+                </article>
+
+         <article class="col-12 col-md-6 col-lg-6">
+            <article class="Offre-Contacts">
+                    <h3>Contacts</h3>
+                    <p>Une question, un besoin sur mesure ou l’envie d’accéder à nos offres exclusives ? Notre équipe vous accompagne avec exigence et discrétion pour une expérience haut de gamme. Retrouvez-nous au 18 avenue Montaigne, 75008 Paris, ou contactez-nous pour bénéficier d’un accompagnement personnalisé et découvrir nos nouveautés en avant-première.</p>
+                </article>
+        </article>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+  <!--section Contact-->
+
+  <footer id="Contact">
+    <div class="container-fluid">
+      <div class="row">
+        <article class="col-12 col-md-12 col-lg-12">
+          <div class="Copyright">
+           <p>© Copyright : © 2024 TechZone - Tous droits réservés </p>
+          </div>
+          
+           <div class="social-network networkdroite">
+               <span> Suivez nous </span>
+             <a href="#"><i class="bi bi-facebook"></i></a>
+             <a href="#"><i class="bi bi-twitter"></i></a>
+             <a href="#"><i class="bi bi-instagram"></i></a>
+             <a href="#"><i class="bi bi-linkedin"></i></a>
+           </div>
+        </article>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+</html>
