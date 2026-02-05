@@ -76,7 +76,7 @@ h3 {
   }
 
 #Produits {
-    background-color: rgb(195, 214, 226);
+    background: linear-gradient(135deg, #4e4e52, #37538f, #1541ae);
   }
 
 .button1{
